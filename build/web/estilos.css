@@ -15,12 +15,13 @@ header, nav, main, footer{
 }
 
 div.submenu{
-    display: none; /* Deixa esta caixa oculta.*/
-    position: absolute; /*Não deixa a tag "nav" esticar */
+    display: none;
+    position: absolute; 
 }
 
 div.menu:hover div.submenu{
-    display: block; /* exibe o submenu*/
+    display: block; 
+    
 }
 
 div.submenu a {
@@ -33,7 +34,7 @@ div.submenu a {
     box-shadow: 10px 15px 15px 0px rgba(0,0,0,0.3);
 }
 
-div.submenu a:hover { /*qunado eu passar o mouse em cima do elemento*/
+div.submenu a:hover { 
     text-decoration: underline;
     background-color: gray;
 }
