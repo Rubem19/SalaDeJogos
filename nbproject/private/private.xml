@@ -5,20 +5,19 @@
         <group>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/excur.html</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/src/conf/MANIFEST.MF</file>
-            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/test/controle/PlataformaDao.java</file>
-            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/altcur.jsp</file>
+            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/test/model/Jogo.java</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/index.html</file>
-            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/test/model/Curso.java</file>
-            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/test/model/Aluno.java</file>
+            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/test/model/Fabricante.java</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/nbproject/build-impl.xml</file>
-            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/cadcur.jsp</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/altcur.html</file>
-            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/excur.jsp</file>
+            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/test/model/PlataformaDao.java</file>
+            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/src/conf/persistence.xml</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/carregajogo.jsp</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/cadcur.html</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/tabela.css</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/inicio.html</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/estilos.css</file>
+            <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/mensagem.jsp</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/test/controle/ControleJogos.java</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/listcur.jsp</file>
             <file>file:/C:/RsJAVADev/ProjetosUni9/atividadeav1/web/META-INF/context.xml</file>
