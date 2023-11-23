@@ -7,7 +7,9 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import model.Curso;
+import model.Fabricante;
+import model.Funcionario;
+import model.Jogo;
 import model.PlataformaDao;
 
 @WebServlet(name = "ControleJogos", urlPatterns = {"/ControleJogos"})
@@ -46,16 +48,18 @@ public class ControleJogos extends HttpServlet {
 
     private void cadastrar(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        String c, n, d;
+        String c, n, p, g;
         c = request.getParameter("codigo");
         n = request.getParameter("nome");
-        d = request.getParameter("duracao");
+        p = request.getParameter("plataforma");
+        g = request.getParameter("categoria");
 
         // Fazer o cadastro
         Jogo jogo = new Jogo();
         jogo.setCodigo(c);
         jogo.setNome(n);
-        jogo.setDuracao(d);
+        jogo.setPlataforma(p);
+        jogo.setCategoria(g);
 
         // Chamar o método salvarJogo na classe PlataformaDao
         int resultado = new PlataformaDao().salvarJogo(jogo);

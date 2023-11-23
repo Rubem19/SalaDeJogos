@@ -6,14 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <form method="post" action="cadcur.jsp">
+        <form method="post" action="ControleJogos?flag=cadastro">
+            <p>
+                <label for="c">Código:*</label>
+                <input id="c" type="text" name="codigo" size="15" maxlength="15" required>
+            </p>
             <p>
                 <label for="nom">Nome:*</label>
                 <input id="nom" type="text" name="nome" size="50" maxlength="50" required>
-            </p>
-            <p>
-                <label for="fab">Fabricante:*</label>
-                <input id="fab" type="text" name="fabricante" size="50" maxlength="50" required>
             </p>
             <p>
                 <label for="plt">Plataforma:*</label>
@@ -21,7 +21,7 @@
             </p>
             <p>
                 <label for="cat">Categoria:*</label>
-                <input id="cat" type="text" name="categoria" size="8" maxlength="11">
+                <input id="cat" type="text" name="categoria" size="50" maxlength="50">
             </p>
             <p>
                 <input type="submit" value="Salvar">
